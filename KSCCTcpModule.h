@@ -3,6 +3,8 @@
 
 #include <cocos2d.h>
 
+#define KSCCTCPMODULE_VERSION						0.1
+
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
  #pragma comment(lib, "ws2_32.lib")
  #pragma comment(lib, "pthreadVCE2.lib")
